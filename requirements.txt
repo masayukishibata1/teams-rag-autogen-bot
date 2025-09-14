@@ -1,0 +1,19 @@
+# 基本
+python-dotenv>=1.0
+aiohttp>=3.9
+
+# Microsoft Bot Framework (BotBuilder)
+botbuilder-core~=4.16
+botbuilder-schema~=4.16
+botbuilder-integration-aiohttp~=4.16
+
+# Azure SDK
+azure-identity>=1.17
+azure-search-documents>=11.5
+
+# AutoGen v0.4 系
+autogen-agentchat>=0.4.2
+autogen-ext[openai]>=0.4.2
+
+# HTTP 通信用
+httpx>=0.27

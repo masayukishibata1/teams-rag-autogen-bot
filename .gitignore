@@ -1,0 +1,62 @@
+# ------------------------
+# Python
+# ------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+.eggs/
+*.egg
+*.log
+
+# Virtualenv / venv
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter / VSCode / IDE
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ------------------------
+# Environment / Secrets
+# ------------------------
+.env
+.env.local
+.env.*.local
+# 例として .env.example は追跡対象に残す
+
+# ------------------------
+# Build / Dist
+# ------------------------
+build/
+dist/
+*.egg-info/
+*.whl
+
+# ------------------------
+# OS files
+# ------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------
+# Coverage / Testing
+# ------------------------
+.coverage
+.tox/
+.pytest_cache/
+htmlcov/
+
+# ------------------------
+# Node/npm (もしUIでフロントを導入する場合に備えて)
+# ------------------------
+node_modu_
